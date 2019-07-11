@@ -2,3 +2,45 @@
 Simple sample for firebase ios/android. Contains auth and work with real-time database.
 
 Sample using framework Firebase.Xamarin.NetStandard20, that based on https://github.com/rlamasb/Firebase.Xamarin.
+
+
+Firebase remote-database sample.
+
+```
+{
+  "places" : {
+    "706ac9f1-2179-4a77-8956-26bd5c06a166" : {
+      "Description" : "Put some description about place here",
+      "Id" : "706ac9f1-2179-4a77-8956-26bd5c06a166",
+      "OwnerId" : "dXOvBI9agmeo8yleTtXAe8OFdM32",
+      "PlaceImage" : "https://www.lavocedinewyork.com/wp-content/uploads/2018/05/1.new-york-skyline-foto-sebastian-leon-1021-300x300.jpg",
+      "PlaceName" : "New York"
+    },
+    "Ankara" : {
+      "Description" : "Ankara is the capital city of Turkey and the second largest city in the country after Istanbul. It is located at the heart of both Turkey and Central Anatolia.",
+      "PlaceImage" : "https://weglobal.org/wp-content/uploads/2019/04/turkey-300x300.jpg",
+      "PlaceName" : "Ankara"
+    },
+    "Dubai" : {
+      "Description" : "The city of Dubai is the largest and most populated city in the United Arab Emirates (UAE) and the capital city of the emirate of Dubai, UAE. The city is sometimes called \"Dubai City\" to prevent it from being mixed up with the emirate.",
+      "PlaceImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVgVjsLHt94R4nIPcGf3DROo3mOB8jgmDDT6gYw1rZwaeNCpyB",
+      "PlaceName" : "Dubai"
+    },
+    "Kiev" : {
+      "Description" : "Kiev or Kyiv is the capital and most populous city of Ukraine, located in the north-central part of the country on the Dnieper.",
+      "PlaceImage" : "http://1.bp.blogspot.com/_6I27LgG9bck/SaYNODDMCBI/AAAAAAAAIY4/xcrt92DDl58/s320/490px-Kiev_rodina_mat_2001_07_11.jpg",
+      "PlaceName" : "Kiev"
+    },
+    "London" : {
+      "Description" : "London is the capital of and largest city in England and the United Kingdom, and the largest city in the European Union. ",
+      "PlaceImage" : "https://www.mingtiandi.com/wp-content/uploads/2017/07/Walkie-Talkie-768x1024-1.jpg",
+      "PlaceName" : "London"
+    },
+    "Paris" : {
+      "Description" : "Paris (French pronunciation: ​[paʁi] (About this soundlisten)) is the capital and most populous city of France, with an area of 105 square kilometres (41 square miles) and an official estimated population of 2,140,526 residents as of 1 January 2019.[1] Since the 17th century, Paris has been one of Europe's major centres of finance, diplomacy, commerce, fashion, science, as well as the arts.",
+      "PlaceImage" : "https://www.latinus.com/wp-content/uploads/2017/01/The-Eiffel-Tower-Paris-By-Pedro-Herrera2012-300x400.jpg",
+      "PlaceName" : "Paris"
+    }
+  }
+}
+```
